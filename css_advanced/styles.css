@@ -113,3 +113,41 @@ main > section:nth-child(1) > div:nth-child(2){
     align-items: center;
     flex-direction: column;
 }
+
+blockquote {
+    color: white;
+    background-color: #C271ff;
+}
+
+main > section:nth-child(2) {
+    margin-top: 1rem;
+}
+
+main > section:nth-child(2) p {
+    text-align: start;
+}
+
+main > section:nth-child(2) > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #C271ff;
+    height: 392px;
+}
+
+main > section:nth-child(2) > div > img {
+    width: 160px;
+    height: 160px;
+}
+
+#bold {
+    font-weight: bold;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+#italic {
+    font-style: italic;
+    margin-left: 2.5rem;
+}
