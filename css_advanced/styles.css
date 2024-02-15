@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 75%;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div div a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 377px;
+    margin-bottom: 0;
+}
+
+.words3{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.words3 span{
+    color: white;
+    font-size: 1rem;
+}
+
+.divforbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.divforbutton button {
+    color: white;
+    background-color: #C271ff;
+    height: 44px;
+    width: 162px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    margin-top: 2.5rem;
+}
