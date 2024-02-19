@@ -119,9 +119,6 @@ blockquote {
     background-color: #C271ff;
 }
 
-main > section:nth-child(2) {
-    margin-top: 1rem;
-}
 
 main > section:nth-child(2) p {
     text-align: start;
@@ -175,9 +172,28 @@ main > section:nth-child(3) > div {
     gap: 1.5rem;
 }
 
+.videocontainer {
+    position: relative;
+}
+
+.whiteoval {
+    background-color: white;
+    width: 4.5rem;
+    height: 4.5rem;
+    top: 2.5rem;
+    transform: translate(120%);
+    opacity: 0.8;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bozpara {
     color: gray !important;
     text-align: start;
+    font-size: 14px;
 }
 
 .purplep {
@@ -186,10 +202,36 @@ main > section:nth-child(3) > div {
 }
 
 .stars {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: #C271ff;
+}
+
+.star.empty{
+    color: #d8d8d8;
 }
 
 .bottomdiv {
     display: flex;
     justify-content: space-between;
+}
+
+.secondfrombottom {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secondfrombottom h3{
+    display: inline-block;
+    color: #C271ff;
+    margin: 0;
+}
+
+.padneeddiv {
+    padding: 0.8rem;
+    padding-top: 0;
 }
